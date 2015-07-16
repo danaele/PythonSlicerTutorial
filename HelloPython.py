@@ -69,9 +69,8 @@ class HelloPythonWidget:
 
   def onHelloWorldButtonClicked(self):
     print "Hello World !"
-    # (Insert Section B text here)
-    # (be sure to match indentation of the rest of this 
-    # code)
+    print "On est chez nous!"
+    print 'Wesh!"
     qt.QMessageBox.information(slicer.util.mainWindow(),'Slicer Python', 'Hello World!')
 
 
